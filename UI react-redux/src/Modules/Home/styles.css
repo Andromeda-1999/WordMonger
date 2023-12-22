@@ -1,0 +1,136 @@
+.container
+  {
+  width:100%;
+  background-color: #000000;
+  padding:0px
+  }
+  #slideshow {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-position: center;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100%;
+    height:111%;
+    display: inline-block;
+    padding-bottom: 0px;
+  }
+  .elemnt,.elemnt1,.elemnt2,.elemnt3,.elemnt4 {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  display: inline-block;
+  text-align: center;
+  }
+
+  .elemnt {
+    filter: brightness(30%);
+    animation: xfade 16s 10s infinite;
+    background-image:url(https://t4.ftcdn.net/jpg/03/62/66/37/360_F_362663712_kMlULdAtqGxT72lWtDXUSACCSWhnp32Q.webp);
+  }
+  .elemnt1 {
+    filter: brightness(30%);
+    animation: xfade 16s 8s infinite;
+    background-image: url(https://www.shrianandshorthand.com/Img/shorthand0_39.jpg);
+
+  }
+  .elemnt2 {
+    filter: brightness(30%);
+    animation: xfade 16s 6s infinite;
+    background-image: url(https://t3.ftcdn.net/jpg/03/23/79/64/240_F_323796492_zTHQGlaXuNCGlUu3MRfu6chwIdTeBEu1.jpg);
+  }
+  .elemnt3 {
+    filter: brightness(30%);
+    animation: xfade 16s 2s infinite;
+    background-image: url(https://t4.ftcdn.net/jpg/03/77/39/53/240_F_377395376_qUybkmlxKxWk6tvtpQpuFWZh5DO1ZC7F.jpg);
+
+  }
+  .elemnt4 {
+    filter: brightness(30%);
+    animation: xfade 16s -2s infinite;
+    background-image:url(https://s24953.pcdn.co/blog/wp-content/uploads/2018/01/writing-templates-2017-1-1024x624.jpg);
+
+  }
+  @keyframes xfade{
+    17% {
+      opacity:1;
+    }
+    25% {
+      opacity:0;
+    }
+    92% {
+      opacity:0;
+    }
+  }
+  @keyframes xfade1{
+    17% {
+      opacity:1;
+    }
+    25% {
+      opacity:0;
+    }
+    92% {
+      opacity:0;
+    }
+  }
+  @keyframes xfade2{
+    17% {
+      opacity:1;
+    }
+    25% {
+      opacity:0;
+    }
+    92% {
+      opacity:0;
+    }
+  }
+  @keyframes xfade3{
+    17% {
+      opacity:1;
+    }
+    25% {
+      opacity:1;
+    }
+    92% {
+      opacity:1;
+    }
+  }
+  @keyframes xfade4{
+    17% {
+      opacity:1;
+    }
+    25% {
+      opacity:0;
+    }
+    92% {
+      opacity:0;
+    }
+  }
+  .form {
+    position:center;
+    right: 0;
+    margin: 20px;
+    max-width: 100%;
+    height:100px;
+    padding: 16px;
+    color:white;
+    opacity: 0.9;
+    height:612px;
+    font-size: 50px ;
+  }
+  .introduction {
+    flex: 1;
+    padding:35px;
+
+  }
+
+  * {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }

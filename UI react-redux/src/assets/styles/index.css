@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+.App {
+
+    background-color: #af0f52;
+    overflow-x: hidden;
+    overflow-y: hidden;
+
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+}
+
+/* base styles */
+* {
+    margin: 0;
+    font-family: "Quicksand";
+
+
+}
+
+.navbar {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+    margin: 0 auto;
+    border-bottom: 1px solid #f2f2f2;
+    background-color: white;
+
+}
+
+.navbar h1 {
+    color: #bf009f;
+}
+
+.navbar .links {
+    margin-left: auto;
+}
+
+.navbar a {
+    margin-left: 16px;
+    text-decoration: none;
+    padding: 6px;
+}
+
+.navbar a:hover {
+    color: #bf0076;
+}
+
+.content {
+
+    height: 100%;
+    max-width: 200%;
+    margin: 0px auto;
+    padding: 20px;
+    background-color: #c50a77;
+
+
+}
+
+/* book previews / list */
+.booklist {
+    background-color: #f5f5f5;
+    min-height: 605px
+
+}
+
+.rootlist {
+
+    padding: 10px 16px;
+
+}
+
+.booklistheading {
+    background-color: #f5f5f5;
+    width: 15%;
+
+
+}
+
+.book-preview {
+    padding: 10px 16px;
+    margin: 20px 0;
+    border-bottom: 1px solid #fafafa;
+}
+
+.book-preview:hover {
+    box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+.book-preview h2 {
+    font-size: 20px;
+    color: #bf006f;
+    margin-bottom: 8px;
+}
+
+.book-preview a {
+    text-decoration: none;
+}
+
+/* book details page */
+.book-details {
+    min-height: 590px
+}
+
+.book-details h2 {
+    font-size: 20px;
+    color: #bf0049;
+    margin-bottom: 10px;
+}
+
+.book-details div {
+    margin: 20px 0;
+}
+
+.book-details button {
+    background: #bf0069;
+    color: #fff;
+    border: 0;
+    padding: 8px;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 100%;
+}
+
+/* create new book form */
+.create {
+    max-width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.create label {
+    text-align: left;
+    display: block;
+    width: 100%;
+}
+
+.create h2 {
+    font-size: 20px;
+    color: #ddd;
+    margin-bottom: 30px;
+}
+
+.create input, .create textarea {
+    width: 100%;
+    padding: 6px 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    display: block;
+}
+
+.create button {
+    background: #bf0096;
+    color: #fff;
+    border: 0;
+    padding: 8px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 8px;
+    width: 100%;
+}
+
+.create button:hover {
+    background-color: #ff6498;
+
+}
+
+.upload-file img {
+    display: block !important;
+    position: relative;
+    color: #fff;
+
+
+}
+
+.upload-file div span  {
+    width: 100%;
+    color: rgb(247, 247, 247);
+
+
+
+}
+
+.upload-file div span:hover {
+    background-color: #ff648b;
+
+}
+
+
+.upload-file input[type='file'] {
+    display: none;
+}
+
+
+.rating {
+    display: flex;
+    margin-left: 12px;
+
+
+}
+
+.booklist button {
+    background: #bf0086;
+    color: #fff;
+    border: 0;
+    padding: 8px;
+    border-radius: 4px;
+    cursor: pointer;
+
+    width: 100%;
+}
+
+.booklist button:hover {
+    background-color: #c90b6a;
+
+}
+
+.Login {
+    background: #00bfa5;
+    padding: 10px 20px;
+    color: white;
+
+}
+
+.Login button {
+    background: #bf005f;
+    color: #fff;
+    border: 0;
+    padding: 8px;
+    border-radius: 4px;
+    cursor: pointer;
+
+    width: 100%;
+}
+
+.Login button:hover {
+    background-color: #ff64cb;
+
+}
+
